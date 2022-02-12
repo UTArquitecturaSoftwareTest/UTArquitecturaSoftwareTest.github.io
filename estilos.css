@@ -1,77 +1,63 @@
+/*Barra del HOME arriba*/
 #navbarcolor{
-    background-color: #2B537D !important;
-    height: 86px;
-    width: 100%;
-    align-items: center;
+	background-color: #2B537D !important;
+	height: 86px;
 }
-
+/*Logotipo manzana navbar*/
+#logotipomanzana{
+	height: 80px;
+	width: 80px;
+}
+/*Healthy clinic navbar*/
+#fuenteclinica{
+	font-size: 32px;
+	font-family: 'Century Gothic';
+	color: white;
+}
 .nav-link{
-    text-align: center;
-    font-family: 'Arial';
-    font-size: 24px;
-    color: white;
-}
-#healthyclinic{
-    font-size: 32px;
-    font-family: 'Century Gothic';
-    color: white;
-}
+	text-align: center;
+	font-size: 24px;
 
-#homemedico{
-    text-align: center;
-    font-family: 'Arial';
-    font-size: 24px;
-    color: white;
 }
-
-#logo{
-    height: 80px;
-    width: 80px;
+#contenedorcentro{
+	background-size: cover;
+	background-image: url(../IMAGENES/atencion2.png);
+	margin: 0 auto;
 }
-body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-image: url(/background1.png);   
-    background-size: cover;
-    background-position: 10px 62px;
-    background-repeat: no-repeat;
+.conocenos{
+	background-color: #2B537D;
+	color: white;
+	text-align: center;
 }
-table{
-    font-family: Century Gothic, Arial;
-    width: 70%;
-    margin-left: 10px;
+.iconos{
+	height: 25%;
+	width: 25%;
 }
-th{
-    background-color: #A7C4D2;
-    text-align: center;
-    font-size: 25px;
-    border-radius: 10px;
-    color: black;
-    justify-content: center;
+.parrafo{
+	font-family: 'Arial';
+	font-size: 24px;
 }
-td{
-    background-color: #e4e9f2;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 10px;
-    padding: 15px;
+#cirugia{
+	height: 100%;
+	width: 100%;
 }
-label{
-    text-align: left;
-    font-size: 16px;
-    padding: 15px;
+#apartadosomos{
+	text-align: justify;
+	/*Para centrar en el medio del container*/
+	display: flex;
+	align-items: center;
 }
-.tablestyle{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contacto{
+	background-color: #373435;
 }
-.td btn{
-    align-items: center;
-    display: flex;
+#manzanacontacto{
+/*Para centar la imagen deberan de tener las mismas medidas del container padre, en este caso 200px*/
+	height: 120px;
+	width: 120px;
+	display: flex;
+	align-items: center;
 }
-.separacion{
-    margin-left: 50px;
-    padding-left: 50px;
+.link{
+	font-size: 24px;
+	color: white;
 }
