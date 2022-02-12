@@ -1,0 +1,13 @@
+#navbarcolor{
+    background-color: #2B537D !important;
+    height: 86px;
+    width: 100%;
+    align-items: center;
+}
+
+.nav-link{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 24px;
+    color: white;
+}
