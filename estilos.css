@@ -21,7 +21,7 @@
 }
 #contenedorcentro{
 	background-size: cover;
-	background-image: url(../IMAGENES/atencion2.png);
+	background-image: url(/atencion2.png);
 	margin: 0 auto;
 }
 .conocenos{
